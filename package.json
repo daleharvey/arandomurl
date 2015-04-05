@@ -28,6 +28,7 @@
     "cookie-session": "^1.1.0",
     "bluebird": "^2.9.24",
     "request": "^2.54.0",
-    "marked": "^0.3.3"
+    "marked": "^0.3.3",
+    "jsdom": "^4.1.0"
   }
 }
