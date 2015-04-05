@@ -1,0 +1,6 @@
+public/js/bundle.js
+data/
+
+*.DS_Store
+node_modules
+npm-debug.log

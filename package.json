@@ -1,0 +1,33 @@
+{
+  "name": "arandomurl.com",
+  "version": "0.0.0",
+  "description": "My Blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "watchify lib/app.js -t envify -o public/js/bundle.js -v",
+    "start": "npm run watch & nodemon lib/server/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.3.6",
+    "pouchdb": "^3.3.1",
+    "pouchdb-express-router": "0.0.3",
+    "dateformat": "^1.0.11",
+    "pouchdb-find": "^0.3.3"
+  },
+  "browser": {
+    "request": "./lib/request-browser.js"
+  },
+  "dependencies": {
+    "express": "^4.11.2",
+    "debug": "^2.1.3",
+    "mkdirp": "^0.5.0",
+    "body-parser": "^1.12.2",
+    "cookie-session": "^1.1.0",
+    "bluebird": "^2.9.24",
+    "request": "^2.54.0",
+    "marked": "^0.3.3"
+  }
+}
