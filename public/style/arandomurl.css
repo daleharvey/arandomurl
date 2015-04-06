@@ -150,6 +150,10 @@ textarea:focus, input:focus{
   margin: 0;
 }
 
+.postContainer {
+  margin-bottom: 5rem;
+}
+
 #newPost .header {
  display: flex;
  justify-content: space-between;
