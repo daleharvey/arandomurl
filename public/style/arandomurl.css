@@ -38,6 +38,11 @@ h1, h3 {
   color: #666;
 }
 
+pre {
+  background: #333;
+  padding-left: .5rem;
+}
+
 #wrapper {
  display: flex;
 }
